@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Dazzle BrowBar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.jpg" alt="Dazzle BrowBar logo">
+        <div class="brand-text"><strong>DAZZLE BROWBAR</strong><span>Where Beauty Shines</span></div>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="btn" href="contact.html">Book Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h2>Services</h2>
+      <p class="section-intro">Simple service page with clear categories and easy-to-edit pricing.</p>
+      <div class="list">
+        <div class="service-item"><div><strong>Eyebrow Threading</strong><span>Shaping and cleanup for a polished brow line.</span></div><b>$15+</b></div>
+        <div class="service-item"><div><strong>Upper Lip Threading</strong><span>Quick and gentle facial hair removal.</span></div><b>$8+</b></div>
+        <div class="service-item"><div><strong>Eyebrow Tinting</strong><span>Natural color enhancement for fuller brows.</span></div><b>$20+</b></div>
+        <div class="service-item"><div><strong>Classic Facial</strong><span>Deep cleanse, massage, and glow finish.</span></div><b>$60+</b></div>
+        <div class="service-item"><div><strong>Body Waxing</strong><span>Comfortable waxing with clean preparation and aftercare.</span></div><b>$25+</b></div>
+        <div class="service-item"><div><strong>Consultation</strong><span>Need help choosing a service? Start here.</span></div><b>Free</b></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>Dazzle BrowBar • Redmond, WA</div>
+      <div class="small">© <span id="year"></span> Dazzle BrowBar. All rights reserved.</div>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
